@@ -1,5 +1,5 @@
 import zlib  # A compression / decompression library
-filename = '.git/objects/ff/0d56a803ad61b6ab8e89a290bedee0114848bc'
+filename = '.git/objects/pack/pack-6d3fb0a6e8c5b3e78b33375e19faf131f23a7f9f.idx'
 compressed_contents = open(filename, 'rb').read()
 decompressed_contents = zlib.decompress(compressed_contents)
 print(decompressed_contents)
